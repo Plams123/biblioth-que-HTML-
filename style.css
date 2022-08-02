@@ -1,0 +1,192 @@
+/**, *::after, *::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
+html{
+	scroll-behavior: smooth;
+}
+/* l'entete de la page */
+
+/*header{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 10000;
+}*/
+
+header img{
+	height: 70px;
+	width: 70px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+header nav ul{
+	display: flex;
+	justify-content: space-between;
+	/* margin-right: 50px; */
+	width: 300px;
+}
+
+header nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+
+/* la section principale */
+
+main{
+	position: relative;
+	top: 7rem;
+}
+
+main h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 15%;
+}
+
+main .present{
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 90vh;
+}
+
+main .present .left{
+	width: 40%;
+	height: 100%;
+	text-align: center;
+}
+
+main .present .left p{
+	margin-top: 200px;
+	font-size: 20px;
+	color: #fecb1f;
+}
+
+main .present .left p span{
+	color: #000;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+main .present .right{
+	width: 50%;
+	height: 100%;
+}
+
+main .present .right img{
+	width: 90%;
+	height: 100%;
+	border-radius: 100px;
+	object-fit: cover;
+	object-position: top;
+}
+
+main .about{
+	width: 100%;
+	padding: 30px;
+	height: 90vh;
+}
+
+main .about h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+main .about .corps{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*main .about .corps .image{
+	width: 50%;
+	height: 100%;
+	margin-right: 50px;
+}*/
+
+
+/*main .about .corps .image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 100px;
+	object-fit: cover;
+}*/
+
+main .about .corps .text{
+	width: 50%;
+	height: 100%;
+}
+
+main .about .corps .text h3{
+	text-align: start;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+main .about .corps .text p{
+	margin-bottom: 30px;
+}
+
+/* la page de contact */
+
+.contact{
+	height: 80vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact form{
+	height: 550px;
+	width: 500px;
+}
+
+
+.contact form .input{
+	margin-left: 40px;
+	width: 70%;
+	height: 30px;
+	margin-bottom: 15px;
+	outline: none;
+	font-size: 20px;
+	border: 2px solid #0f0f0f;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.contact form textarea{
+	width: 90%;
+	outline: none;
+	padding: 20px;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+.contact form .input2{
+	height: 30px;
+	width: 100px;
+	color: #000;
+	margin-left: 370px;
+}
